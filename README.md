@@ -21,9 +21,9 @@ Implemented:
 * Window duplication
 * Message
 * Hydra drawing
+* Head drawing
 
 To-do:
-* Head drawing
 * Package app
 * Disable minimize button
 
