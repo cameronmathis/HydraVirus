@@ -20,9 +20,10 @@ Navigate to the project directory and type the command:
 Implemented:
 * Window duplication
 * Message
+* Hydra drawing
 
 To-do:
-* Hydra drawing
+* Head drawing
 * Package app
 * Disable minimize button
 
