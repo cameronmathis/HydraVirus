@@ -1,6 +1,5 @@
 from tkinter import *
 import random
-from typing import NewType
 
 # Create window object
 app = Tk()
@@ -12,6 +11,15 @@ app.resizable(0, 0)
 hydraSpacing = Label(app, text=' ', font=('bold', 14), pady=10)
 hydraSpacing.config(anchor=CENTER)
 hydraSpacing.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
 hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
 hydraSerpant.config(anchor=CENTER)
 hydraSerpant.pack()
@@ -123,9 +131,6 @@ def openNewWindow():
     headSpacing = Label(app, text=' ', font=('bold', 14), pady=10)
     headSpacing.config(anchor=CENTER)
     headSpacing.pack()
-    hydraHead = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
-    hydraHead.config(anchor=CENTER)
-    hydraHead.pack()
     hydraHead = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
     hydraHead.config(anchor=CENTER)
     hydraHead.pack()
