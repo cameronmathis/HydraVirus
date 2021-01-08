@@ -1,5 +1,6 @@
 from tkinter import *
 import random
+from typing import NewType
 
 # Create window object
 app = Tk()
@@ -8,8 +9,107 @@ app.geometry('500x500')
 app.resizable(0, 0)
 
 # Draw Hydra
-hydraSerpant = Label(app, text='---------------------------------------------------------', font=('bold', 14), pady=20)
-hydraSerpant.grid(row=0, column=0)
+hydraSpacing = Label(app, text=' ', font=('bold', 14), pady=10)
+hydraSpacing.config(anchor=CENTER)
+hydraSpacing.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+hydraSerpant = Label(app, text='-----------------------------------------------------------------------------------------------', font=('bold', 5), pady=0)
+hydraSerpant.config(anchor=CENTER)
+hydraSerpant.pack()
+
+# Display message
+hydraMessage = Label(app, text='Cut off a head, two or more will take its place.', font=('bold', 14), pady=40)
+hydraMessage.config(anchor=CENTER)
+hydraMessage.pack()
 
 # Function to open a new window  
 def openNewWindow(): 
@@ -21,7 +121,15 @@ def openNewWindow():
 
     # Draw Head
     newHead = Label(newAPP, text='---------------------------------------------------------', font=('bold', 14), pady=20)
-    newHead.grid(row=0, column=0)
+    newHead.config(anchor=CENTER)
+    newHead.pack()
+
+    # Display message
+    newHead = Label(app, text='Cut off a head, two or more will take its place.', font=('bold', 14), pady=40)
+    newHead.config(anchor=CENTER)
+    newHead.pack()
+
+    newAPP.protocol("WM_DELETE_WINDOW", closeWindow)
 
 # Get number of new heads
 def getHeads():
@@ -30,10 +138,8 @@ def getHeads():
 def closeWindow():
     for i in range(getHeads()):
         openNewWindow()
-    
-    app.destroy()
 
-app.protocol("WM_DELETE_WINDOW", closeWindow)
+# app.protocol("WM_DELETE_WINDOW", closeWindow)
 
 # Start program
 app.mainloop()

@@ -1,5 +1,5 @@
 # Hydra Virus
-This is a Python Application/Virus that opens two windows every time the user tries to close a window.
+This is a Python Application/Virus that opens two or more windows every time the user tries to close a window.
 
 ## Table of contents
 * [General info](#general-info)
@@ -10,16 +10,21 @@ This is a Python Application/Virus that opens two windows every time the user tr
 * [Contact](#contact)
 
 ## General info
-This is a project I decided I wanted to do as a prank on my girlfriend. I thought it would be funny to see her face as she attempted to close each window.
+This is a project I decided I wanted to do as a prank on my girlfriend. I thought it would be funny to see her face as she attempted to close each window. I got the idea from a tiktok I saw.
 
 ## Setup
+Navigate to the project directory and type the command:
+> python HydraVirus
 
 ## Features
 Implemented:
-* None
+* Window duplication
+* Message
 
 To-do:
-* Everything
+* Hydra drawing
+* Package app
+* Disable minimize button
 
 ## Status
 Version: 1.0.0 Alpha <br/>
