@@ -23,8 +23,10 @@ Implemented:
 * Hydra drawing
 * Head drawing
 
-To-do:
+Work-in-progress:
 * Package app
+
+To-do:
 * Disable minimize button
 
 ## Status
@@ -33,7 +35,7 @@ Project is: _in progress_
 
 ## Language details
 Language used: Python </br>
-Version used: 3.8
+Version used: 3.8.5
 
 ## Contact
 Created by [@cameronmathis](https://github.com/cameronmathis/) - feel free to contact me!
