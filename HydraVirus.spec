@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['HydraVirus.py'],
-             pathex=['/mnt/c/Users/Cameron Mathis/Documents/CodeProjects/HydraVirus'],
+             pathex=['/Users/cameronmathis/Documents/CodeProjects/HydraVirus'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -31,3 +31,7 @@ exe = EXE(pyz,
           upx_exclude=[],
           runtime_tmpdir=None,
           console=False )
+app = BUNDLE(exe,
+             name='HydraVirus.app',
+             icon=None,
+             bundle_identifier=None)
