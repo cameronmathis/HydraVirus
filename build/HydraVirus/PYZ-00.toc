@@ -343,8 +343,8 @@
    '/usr/lib/python3.8/multiprocessing/__init__.py',
    'PYMODULE'),
   ('_py_abc', '/usr/lib/python3.8/_py_abc.py', 'PYMODULE'),
-  ('stringprep', '/usr/lib/python3.8/stringprep.py', 'PYMODULE'),
   ('tracemalloc', '/usr/lib/python3.8/tracemalloc.py', 'PYMODULE'),
+  ('stringprep', '/usr/lib/python3.8/stringprep.py', 'PYMODULE'),
   ('random', '/usr/lib/python3.8/random.py', 'PYMODULE'),
   ('tkinter', '/usr/lib/python3.8/tkinter/__init__.py', 'PYMODULE'),
   ('tkinter.constants', '/usr/lib/python3.8/tkinter/constants.py', 'PYMODULE')])
